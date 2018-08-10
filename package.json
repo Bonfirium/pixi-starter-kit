@@ -1,0 +1,28 @@
+{
+	"name": "pixi-starter-kit",
+	"version": "0.1.0",
+	"description": "Starter Kit for project on PIXI.js",
+	"main": "src/app.js",
+	"scripts": {
+		"start": "webpack-dev-server",
+		"build": "webpack",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Bonfirium",
+	"license": "MIT",
+	"dependencies": {
+		"pixi.js": "^4.8.1"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"clean-webpack-plugin": "^0.1.19",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"file-loader": "^1.1.11",
+		"html-webpack-plugin": "^3.2.0",
+		"url-loader": "^1.0.1",
+		"webpack": "^4.16.0",
+		"webpack-cli": "^3.0.8",
+		"webpack-dev-server": "^3.1.4"
+	}
+}
